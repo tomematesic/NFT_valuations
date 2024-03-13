@@ -16,16 +16,13 @@ Model Selection and Evaluation:
 
 Hyperparameter Tuning:
         Hyperparameters for the models, especially for Gradient Boosting, Random Forest, and LSTM, are not optimized in the provided code. Utilizing techniques like GridSearchCV or RandomizedSearchCV for hyperparameter tuning could lead to better model performance.
-        Including hyperparameter optimization for the LSTM network would
-
-improve its performance significantly.
+        Including hyperparameter optimization for the LSTM network would improve its performance significantly.
 
 Visualization:
         The code includes visualization of the monthly average sale price, which provides insights into the data trends. Additionally, visualizing the model performance comparison and the training/validation loss of the LSTM model enhances the interpretability of the results.
 
 Accuracy Calculation:
-        The code calculates accuracy for regression models, which is not a typical metric for regression tasks. Instead, metrics like mean squared error (MSE), mean absolute error (MAE), or R-squared should be used for evaluation.
-        Consider using more appropriate evaluation metrics for regression tasks to provide a clearer understanding of model performance.
+        The code calculates accuracy for regression models, which is not a typical metric for regression tasks. Instead, metrics like mean squared error (MSE), mean absolute error (MAE), or R-squared should be used for evaluation. Consider using more appropriate evaluation metrics for regression tasks to provide a clearer understanding of model performance.
 
 Code Efficiency and Structure:
         The code structure is clear and well-organized, making it easy to follow. However, some parts of the code could be modularized into functions for better readability and reusability.

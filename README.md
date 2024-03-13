@@ -10,7 +10,7 @@ Feature Engineering:
         The code performs one-hot encoding for categorical variables, which is appropriate. However, it's essential to ensure that the encoding is done correctly and efficiently, especially if the categorical variables have a large number of unique values.
 
 Model Selection and Evaluation:
-        The code trains and evaluates multiple models: Linear Regression, Gradient Boosting Regressor, Random Forest Regressor, and LSTM Neural Network. This approach provides a good comparison of different algorithms.
+        The code trains and evaluates multiple models: Linear Regression, Gradient Boosting Regressor, Random Forest Regressor, LSTM Neural Network and a Transformer Neural Network. This approach provides a good comparison of different algorithms.
         It's advisable to use cross-validation for more robust model evaluation, especially considering the relatively small dataset size.
         For the LSTM model, it would be helpful to visualize the training and validation loss over epochs, as done in the code, to assess model convergence and potential overfitting.
 
